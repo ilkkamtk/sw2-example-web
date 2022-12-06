@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+
+#single {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    z-index: 999;
+    padding: 1rem;
+    background-color: #ccc;
+    border: 1px solid #000;
+}
+
+#list-selection {
+    position: absolute;
+    top: 7rem;
+    right: 2rem;
+    z-index: 999;
+    padding: 1rem;
+    background-color: #ccc;
+    border: 1px solid #000;
+}
+
+form {
+    width: 20rem;
+}
+
+input {
+    padding: .5rem;
+}
+
+select {
+    display: block;
+    padding: .5rem;
+    margin-bottom: .3rem;
+}
