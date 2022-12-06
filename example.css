@@ -8,28 +8,22 @@ body {
     height: 100vh;
 }
 
-#single {
+form {
     position: absolute;
-    top: 2rem;
     right: 2rem;
     z-index: 999;
     padding: 1rem;
     background-color: #ccc;
     border: 1px solid #000;
+    width: 20rem;
+}
+
+#single {
+    top: 2rem;
 }
 
 #list-selection {
-    position: absolute;
     top: 7rem;
-    right: 2rem;
-    z-index: 999;
-    padding: 1rem;
-    background-color: #ccc;
-    border: 1px solid #000;
-}
-
-form {
-    width: 20rem;
 }
 
 input {
